@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(225, 100%, 94%);
+    #bg{
+        height: 60vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: -4;
+    }
+
+}
+
+
+.main{
+    z-index: 4;
+    height: 90vh;
+    width: 28vw;
+    background: white;
+    border-radius: 1rem;
+}
+.hero-img img{
+    height: auto;
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+}
+
+.text{
+    margin: 20px;
+    padding: 20px;
+    h1{
+        text-align: center;
+        font-size: 1.6rem;
+        color:   hsl(223, 47%, 23%);
+        font-weight: 900;
+
+        padding-bottom: 20px;
+    }
+    p{
+        text-align: center;
+        color: hsl(224, 23%, 55%);
+        line-height: 1.5;
+        font-size: 16px;
+    }
+}
+
+.plan{
+    margin: 0 20px 0 20px;
+
+    display: flex;
+    justify-content: space-around;
+    .left{
+        display: flex;
+        align-items: center;
+        .music{
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .plan-text{
+            h1{
+                font-size: 0.9rem;
+                padding-bottom: 5px;
+                color: hsl(223, 47%, 23%);
+                font-weight: 900;
+            }
+            p{
+                font-size: 0.9rem;
+                color: hsl(224, 23%, 55%);
+                font-weight: 500;
+            }
+        }
+    }
+
+    .right{
+        display: flex;
+        align-items: center;
+        a{
+            font-size: 0.8rem;
+            align-self: center;
+            color: hsl(245, 75%, 52%);
+            font-weight: 700;
+        }
+        a:hover{
+            color: hsl(224, 23%, 55%);
+            text-decoration: none;
+        }
+    }
+}
+
+.btn-grp{
+    margin: 30px 30px 0 30px;
+    display: grid;
+  
+    }
+    .payment{
+        color: hsl(225, 100%, 98%);
+        font-size: 0.8rem;
+        font-weight: 700;
+        background-color: hsl(245, 75%, 52%);
+        border-radius: 0.5rem;
+        padding: 0.8rem;
+        margin: 5px;
+        border: none;
+    }
+    .payment:hover{
+        background-color: hsl(224, 23%, 55%);
+        cursor: pointer;
+    }
+    .cancel{
+        font-size: 13px;
+        text-align: center;
+        color: hsl(224, 23%, 55%);
+        padding-top: 5px;
+        font-weight: 700;
+
+    }
+    .cancel:hover{
+        color: hsl(223, 47%, 23%);
+        cursor: pointer;
+    }
+

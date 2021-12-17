@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e0e8ff;
+}
+
+body #bg {
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -4;
+}
+
+.main {
+  z-index: 4;
+  height: 90vh;
+  width: 28vw;
+  background: white;
+  border-radius: 1rem;
+}
+
+.hero-img img {
+  height: auto;
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+}
+
+.text {
+  margin: 20px;
+  padding: 20px;
+}
+
+.text h1 {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #1f2f56;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.text p {
+  text-align: center;
+  color: #7280a7;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.plan {
+  margin: 0 20px 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.plan .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plan .left .music {
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plan .left .plan-text h1 {
+  font-size: 0.9rem;
+  padding-bottom: 5px;
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+.plan .left .plan-text p {
+  font-size: 0.9rem;
+  color: #7280a7;
+  font-weight: 500;
+}
+
+.plan .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plan .right a {
+  font-size: 0.8rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #3829e0;
+  font-weight: 700;
+}
+
+.plan .right a:hover {
+  color: #7280a7;
+  text-decoration: none;
+}
+
+.btn-grp {
+  margin: 30px 30px 0 30px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.payment {
+  color: #f5f7ff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: #3829e0;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  margin: 5px;
+  border: none;
+}
+
+.payment:hover {
+  background-color: #7280a7;
+  cursor: pointer;
+}
+
+.cancel {
+  font-size: 13px;
+  text-align: center;
+  color: #7280a7;
+  padding-top: 5px;
+  font-weight: 700;
+}
+
+.cancel:hover {
+  color: #1f2f56;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
