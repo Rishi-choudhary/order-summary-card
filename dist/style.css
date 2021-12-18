@@ -162,4 +162,21 @@ body #bg {
   color: #1f2f56;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 375px) {
+  .main {
+    width: auto;
+    height: auto;
+    margin: 10px;
+  }
+  .main .text {
+    padding: 0;
+  }
+  .main .text h1 {
+    font-size: 1.5rem;
+  }
+  .main .text p {
+    font-size: 15px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
